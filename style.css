@@ -106,6 +106,123 @@ h1{
     height: 22px;
     margin-top: 15px;
     margin-left: 41px;
+}
+
+.container{
+    width: 1110px;
+    margin: auto
+}
+
+.slider{
+    margin-top: 152px;
+
+}
+.big {
+    width: 55px;
+    height: 55px;
+    border: 2px solid #005BC1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1000px;
+    margin-top: -40px;
 
 
+}
+
+.small{
+    width: 55px;
+    height: 55px;
+    border: 2px solid #005BC1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1055px;
+    margin-top: -55px;
+}
+
+.slider>h2{
+    display: block;
+    margin-left: 150px;
+    margin-top: -25px;
+}
+
+.olimp {
+    width: 540px;
+    height: 400px;
+    position: relative;
+    background-image: url(./foto/Rectangle\ 4.png);
+    margin-top: 70px;
+
+
+}
+
+.blabla{
+    position: absolute;
+    width: 250px;
+    height: 110px;
+    margin-top: 255px;
+    margin-left: 255px;
+    background-color: white;
+}
+
+.blabla>h3{
+    margin: 20px 25px; 
+    font-family: 'Oswald', sans-serif; 
+    font-style: bold;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.blabla>p{
+    margin-top: -15px;
+    margin-left: 25px;
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343434;
+    
+}
+
+.oli{
+    width: 540px;
+    height: 400px;
+    position: relative;
+    background-image: url(./foto/Rectangle\ 4\ \(1\).png);
+    margin-left: 600px;
+    margin-top: -400px;
+    display: flex;
+}
+
+.ork{
+    
+    width: 250px;
+    height: 110px;
+    margin-top: 255px;
+    margin-left: 255px;
+    background-color: white;
+}
+
+.ork>h4{
+    margin: 20px 25px; 
+    font-family: 'Oswald', sans-serif; 
+    font-style: bold;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.ork>p{
+    margin-top: -15px;
+    margin-left: 25px;
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343434;
+    
 }
