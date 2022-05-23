@@ -114,7 +114,7 @@ h1{
 }
 
 .slider{
-    margin-top: 152px;
+    margin-top: 150px;
 
 }
 .big {
@@ -145,6 +145,10 @@ h1{
     display: block;
     margin-left: 150px;
     margin-top: -25px;
+    font-family: 'Oswald', sans-serif; 
+    font-style: bold;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .olimp {
@@ -228,7 +232,7 @@ h1{
 }
 
 .catalog{
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .catalog__header img {
@@ -370,4 +374,25 @@ h1{
     margin-left: 21px;
 }
 
+.rent{
+    margin-top: 50px;
+}
 
+.rent__header img {
+    object-fit: contain;
+}
+
+.rent__header {
+    display: flex;
+    align-items: center;
+}
+
+.rant{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
