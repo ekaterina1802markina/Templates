@@ -470,7 +470,6 @@ h1{
     font-family:'Oswald', sans-serif ;
     font-weight: 600;
     font-size: 16px;
-    margin-top: -20px;
     font-size: 16px;
     line-height: 24px;
 }
@@ -486,12 +485,210 @@ h1{
 
 .type__item {
     list-style-type: disc;
-    
-
-
 }
 
 .img{
     margin-bottom: 30px;
     margin-left: 30px;
+}
+
+.heading-text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.news {
+    margin-top: 110px;
+}
+    
+.news__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.news__header {
+    display: flex;
+    align-items: center;
+}
+    
+.news__all-news {
+    background: #005BC1;
+    width: 190px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.news__all-news p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+    
+.news__main {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.news__milos {
+    width: 540px;
+    display: flex;
+    align-items: center;
+}
+    
+.milos__main {
+    width: 255px;
+    margin-left: 30px;
+}
+    
+.milos__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.news-heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+    
+.news-date {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #979797;
+}
+    
+.news-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+    
+.news__prolight {
+    width: 235px;
+}
+    
+.milos__main-text {
+    margin-top: 42px;
+}
+    
+.milos__read {
+    margin-top: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: black;
+}
+    
+.prolight__image {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+    
+.prolight__text {
+    margin-top: 20px;
+}
+    
+.news__robe {
+    width: 255px;
+}
+    
+.robe__text {
+    margin-top: 20px;
+}
+    
+.robe__image {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.footer {
+    height: 255px;
+    background: #005BC1;
+    margin-top: 120px;
+}
+    
+.footer__contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.footer__contact p {
+    color: white;
+    margin-top: 36px;
+}
+    
+.footer__phone {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+    
+.footer-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+    
+.footer__line {
+    margin-top: 25px;
+    width: 1110px;
+    height: 0px;
+    border-bottom: 1px solid #FFFFFF;
+}
+    
+.footer__nav {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+    
+.footer__company p, .footer__catalog p, .footer__project p, .footer__rules{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 0.99;
+}
+    
+.footer__text {
+    margin-bottom: 10px;
+}
+    
+.footer__rules {
+    margin-top: 25px;
 }
