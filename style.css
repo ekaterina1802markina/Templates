@@ -266,14 +266,8 @@ h1{
     line-height: 36px;
 }
 
-.catalog__text {
-    display: flex;
-    margin-left: 450px;
-    margin-top: 70px;
-
-}
-
-.catalog__text>p{
+.two{
+    color: black;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -281,6 +275,14 @@ h1{
     line-height: 36px;
     margin-left: 47px;
 }
+
+.catalog__text {
+    display: flex;
+    margin-left: 450px;
+    margin-top: 70px;
+
+}
+
 
 .static{
     margin-top: 50px;
