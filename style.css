@@ -21,12 +21,9 @@ li{
     list-style: none;
 }
 
-ul{
-    display: flex;
-}
-
 .menu_link{
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
     color:white;
     display: flex;
     margin-right: 25px;
@@ -40,23 +37,27 @@ ul{
 }
 
 .logo{
+    height: 80px;
     display: flex; 
-    background: rgba(0, 91, 193, 0.6);;
+    background: rgba(0, 91, 193, 0.6);
+    justify-content: center;
 
 }
 .logo_link{
     margin-left: 40px;
     margin-top: 11px;
+    position: absolute;
 }
 
-.menu_list{
-    margin-left: 555px;
-
+.menu__list{
+    display: flex;
+    justify-content: center;
+    
 }
 
 .kvadrat{
     width: 444px;
-    height: 725px;
+    height: 720px;
     margin-left: 405px;
     background: rgba(0, 91, 193, 0.6);
 }
@@ -66,8 +67,9 @@ ul{
     height: 317px;
     display: block;
     margin-top: -500px;
-    margin-left: 500px;
+    margin-left: 525px;
     color:white;
+   
 
 }
 
@@ -95,7 +97,7 @@ h1{
     width: 160px;
     height: 51px;
     margin-top: -65px;
-    margin-left: 500px;
+    margin-left: 525px;
     border: 1px solid white;
 }
 
@@ -385,6 +387,7 @@ h1{
 .rent__header {
     display: flex;
     align-items: center;
+    margin-top: -150px;
 }
 
 .rant{
@@ -395,4 +398,18 @@ h1{
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-left: 40px;
+}
+
+.text{
+    width: 380px;
+    height: 175px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #343434;
+    margin-top: 450px;
+    margin-left: -550px;
+
 }
